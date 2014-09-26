@@ -1,0 +1,9 @@
+E:\桌面\SafeIM\Base\bin\Release\Base.dll
+E:\桌面\SafeIM\Base\bin\Release\Base.pdb
+E:\桌面\SafeIM\Base\obj\Release\Base.dll
+E:\桌面\SafeIM\Base\obj\Release\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Base\bin\Release\Base.dll
+C:\Users\新宇\Desktop\SafeIM\Base\bin\Release\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Base\obj\Release\Base.dll
+C:\Users\新宇\Desktop\SafeIM\Base\obj\Release\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Base\obj\Release\Base.csprojResolveAssemblyReference.cache

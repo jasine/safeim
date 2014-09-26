@@ -1,0 +1,57 @@
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.Chat.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.CMainForm.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\EmotionTest.EmotionDropdown.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.FileRequst.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.frmScreen.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.Login.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.Properties.Resources.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.Regest.resources
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\桌面\新建文件夹 (2)\Client\bin\Debug\Client.exe.config
+E:\桌面\新建文件夹 (2)\Client\bin\Debug\Client.exe
+E:\桌面\新建文件夹 (2)\Client\bin\Debug\Client.pdb
+E:\桌面\新建文件夹 (2)\Client\bin\Debug\Base.dll
+E:\桌面\新建文件夹 (2)\Client\bin\Debug\Base.pdb
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.exe
+E:\桌面\新建文件夹 (2)\Client\obj\Debug\Client.pdb
+E:\桌面\SafeIM\Client\bin\Debug\Client.exe.config
+E:\桌面\SafeIM\Client\bin\Debug\Client.exe
+E:\桌面\SafeIM\Client\bin\Debug\Client.pdb
+E:\桌面\SafeIM\Client\bin\Debug\Base.dll
+E:\桌面\SafeIM\Client\bin\Debug\EmotionPanel.dll
+E:\桌面\SafeIM\Client\bin\Debug\Base.pdb
+E:\桌面\SafeIM\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\桌面\SafeIM\Client\obj\Debug\Client.Chat.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.CMainForm.resources
+E:\桌面\SafeIM\Client\obj\Debug\EmotionTest.EmotionDropdown.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.FileRequst.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.frmScreen.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.Login.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.Properties.Resources.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.Regest.resources
+E:\桌面\SafeIM\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\桌面\SafeIM\Client\obj\Debug\Client.exe
+E:\桌面\SafeIM\Client\obj\Debug\Client.pdb
+E:\桌面\SafeIM\Client\obj\Debug\Client.AboutBox.resources
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Client.exe.config
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Client.exe
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Client.pdb
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Base.dll
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\EmotionPanel.dll
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Microsoft.DirectX.DirectSound.dll
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Microsoft.DirectX.dll
+C:\Users\新宇\Desktop\SafeIM\Client\bin\Debug\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.AboutBox.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.Chat.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.CMainForm.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\EmotionTest.EmotionDropdown.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.FileRequst.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.frmScreen.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.Login.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.Regest.resources
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.exe
+C:\Users\新宇\Desktop\SafeIM\Client\obj\Debug\Client.pdb

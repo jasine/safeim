@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81301627-A09F-41F8-AA39-1C5E157AEBD1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Client</RootNamespace>
+    <AssemblyName>Client</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>alien.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EmotionPanel">
+      <HintPath>.\EmotionPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.DirectX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.DirectX.DirectSound.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat.Designer.cs">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMainForm.Designer.cs">
+      <DependentUpon>CMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmotionDropdown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmotionDropdown.designer.cs">
+      <DependentUpon>EmotionDropdown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FileRequst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileRequst.Designer.cs">
+      <DependentUpon>FileRequst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmScreen.designer.cs">
+      <DependentUpon>frmScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TcpCon.cs" />
+    <Compile Include="Voice\DirectSoundHelper.cs" />
+    <Compile Include="Voice\NetChat.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Regest.Designer.cs">
+      <DependentUpon>Regest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UdpCon.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="Video\Video.cs" />
+    <Compile Include="Video\VideoAPI.cs" />
+    <Compile Include="Voice\VoiceCapture.cs" />
+    <Compile Include="用户列表\QQListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="用户列表\QQListBox.Designer.cs">
+      <DependentUpon>QQListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="用户列表\QQListBoxItem.cs" />
+    <Compile Include="用户列表\QQListBoxItemCollection.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMainForm.resx">
+      <DependentUpon>CMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmotionDropdown.resx">
+      <DependentUpon>EmotionDropdown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileRequst.resx">
+      <DependentUpon>FileRequst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmScreen.resx">
+      <DependentUpon>frmScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Regest.resx">
+      <DependentUpon>Regest.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.csproj">
+      <Project>{bee9d7ef-2b0d-4bff-9cb7-dda1bf678f72}</Project>
+      <Name>Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sound\WaringSlight.wav" />
+    <None Include="Sound\Waring.wav" />
+    <None Include="Faces\0.gif" />
+    <None Include="Faces\1.gif" />
+    <None Include="Faces\2.gif" />
+    <None Include="Faces\3.gif" />
+    <None Include="Faces\4.gif" />
+    <None Include="Faces\5.gif" />
+    <None Include="Faces\6.gif" />
+    <None Include="Faces\7.gif" />
+    <None Include="Faces\8.gif" />
+    <None Include="Faces\9.gif" />
+    <None Include="Faces\10.gif" />
+    <None Include="Faces\11.gif" />
+    <None Include="Faces\12.gif" />
+    <None Include="Faces\13.gif" />
+    <None Include="Faces\14.gif" />
+    <None Include="Faces\15.gif" />
+    <None Include="Faces\16.gif" />
+    <None Include="Faces\17.gif" />
+    <None Include="Faces\18.gif" />
+    <None Include="Faces\19.gif" />
+    <None Include="Faces\20.gif" />
+    <None Include="Faces\21.gif" />
+    <None Include="Faces\22.gif" />
+    <None Include="Faces\23.gif" />
+    <None Include="Faces\24.gif" />
+    <None Include="Faces\25.gif" />
+    <None Include="Faces\26.gif" />
+    <None Include="Faces\27.gif" />
+    <None Include="Faces\28.gif" />
+    <None Include="Faces\29.gif" />
+    <None Include="Faces\30.gif" />
+    <None Include="Faces\31.gif" />
+    <None Include="Faces\32.gif" />
+    <None Include="Faces\33.gif" />
+    <None Include="Faces\34.gif" />
+    <None Include="Faces\35.gif" />
+    <None Include="Faces\36.gif" />
+    <None Include="Faces\37.gif" />
+    <None Include="Faces\38.gif" />
+    <None Include="Faces\39.gif" />
+    <None Include="Faces\40.gif" />
+    <None Include="Faces\41.gif" />
+    <None Include="Faces\42.gif" />
+    <None Include="Faces\43.gif" />
+    <None Include="Faces\44.gif" />
+    <None Include="Faces\45.gif" />
+    <None Include="Faces\46.gif" />
+    <None Include="Faces\47.gif" />
+    <None Include="Faces\48.gif" />
+    <None Include="Faces\49.gif" />
+    <None Include="Faces\50.gif" />
+    <None Include="Faces\51.gif" />
+    <None Include="Faces\52.gif" />
+    <None Include="Faces\53.gif" />
+    <None Include="Faces\54.gif" />
+    <None Include="Faces\55.gif" />
+    <None Include="Faces\56.gif" />
+    <None Include="Faces\57.gif" />
+    <None Include="Faces\58.gif" />
+    <None Include="Faces\59.gif" />
+    <None Include="Faces\60.gif" />
+    <None Include="Faces\61.gif" />
+    <None Include="Faces\62.gif" />
+    <None Include="Faces\63.gif" />
+    <None Include="Faces\64.gif" />
+    <None Include="Faces\65.gif" />
+    <None Include="Faces\66.gif" />
+    <None Include="Faces\67.gif" />
+    <None Include="Faces\68.gif" />
+    <None Include="Faces\69.gif" />
+    <None Include="Faces\70.gif" />
+    <None Include="Faces\71.gif" />
+    <None Include="Faces\72.gif" />
+    <None Include="Faces\73.gif" />
+    <None Include="Faces\74.gif" />
+    <None Include="Faces\75.gif" />
+    <None Include="Faces\76.gif" />
+    <None Include="Faces\77.gif" />
+    <None Include="Faces\78.gif" />
+    <None Include="Faces\79.gif" />
+    <None Include="Faces\80.gif" />
+    <None Include="Faces\81.gif" />
+    <None Include="Faces\82.gif" />
+    <None Include="Faces\83.gif" />
+    <None Include="Faces\84.gif" />
+    <None Include="Faces\85.gif" />
+    <None Include="Faces\86.gif" />
+    <None Include="Faces\87.gif" />
+    <None Include="Faces\88.gif" />
+    <None Include="Faces\89.gif" />
+    <None Include="Faces\90.gif" />
+    <None Include="Faces\91.gif" />
+    <None Include="Faces\92.gif" />
+    <None Include="Faces\93.gif" />
+    <None Include="Faces\94.gif" />
+    <None Include="Faces\95.gif" />
+    <None Include="Faces\96.gif" />
+    <None Include="Faces\97.gif" />
+    <None Include="Faces\98.gif" />
+    <None Include="Faces\99.gif" />
+    <None Include="Faces\100.gif" />
+    <None Include="Faces\101.gif" />
+    <None Include="Faces\102.gif" />
+    <None Include="Faces\103.gif" />
+    <None Include="Faces\104.gif" />
+    <None Include="Faces\105.gif" />
+    <None Include="Faces\106.gif" />
+    <None Include="Faces\107.gif" />
+    <None Include="Faces\108.gif" />
+    <None Include="Faces\109.gif" />
+    <None Include="Faces\110.gif" />
+    <None Include="Faces\111.gif" />
+    <None Include="Faces\112.gif" />
+    <None Include="Faces\113.gif" />
+    <None Include="Faces\114.gif" />
+    <None Include="Faces\115.gif" />
+    <None Include="Faces\116.gif" />
+    <None Include="Faces\117.gif" />
+    <None Include="Faces\118.gif" />
+    <None Include="Faces\119.gif" />
+    <None Include="Faces\120.gif" />
+    <None Include="Faces\121.gif" />
+    <None Include="Faces\122.gif" />
+    <None Include="Faces\123.gif" />
+    <None Include="Faces\124.gif" />
+    <None Include="Faces\125.gif" />
+    <None Include="Faces\126.gif" />
+    <None Include="Faces\127.gif" />
+    <None Include="Faces\128.gif" />
+    <None Include="Faces\129.gif" />
+    <None Include="Faces\130.gif" />
+    <None Include="Faces\131.gif" />
+    <None Include="Faces\132.gif" />
+    <None Include="Faces\133.gif" />
+    <None Include="Faces\134.gif" />
+    <None Include="Images\Color\0.jpg" />
+    <None Include="Images\Color\1.jpg" />
+    <None Include="Images\Color\2.jpg" />
+    <None Include="Images\Color\3.jpg" />
+    <None Include="Images\Color\4.jpg" />
+    <None Include="Images\Color\5.jpg" />
+    <None Include="Images\Color\6.jpg" />
+    <None Include="Images\Color\7.jpg" />
+    <None Include="Images\Color\8.jpg" />
+    <None Include="Images\Color\9.jpg" />
+    <None Include="Images\Color\10.jpg" />
+    <None Include="Images\Color\11.jpg" />
+    <None Include="Images\Color\12.jpg" />
+    <None Include="Images\Color\13.jpg" />
+    <None Include="Images\Color\14.jpg" />
+    <None Include="Images\Color\15.jpg" />
+    <None Include="Images\Color\16.jpg" />
+    <None Include="Images\Color\17.jpg" />
+    <None Include="Images\Color\18.jpg" />
+    <None Include="Images\Color\19.jpg" />
+    <None Include="Images\Color\20.jpg" />
+    <None Include="Images\Color\21.jpg" />
+    <None Include="Images\Color\22.jpg" />
+    <None Include="Images\Color\23.jpg" />
+    <None Include="Images\Color\24.jpg" />
+    <None Include="Images\Color\25.jpg" />
+    <None Include="Images\Color\26.jpg" />
+    <None Include="Images\Color\27.jpg" />
+    <None Include="Images\Color\28.jpg" />
+    <None Include="Images\Color\29.jpg" />
+    <None Include="Images\Color\30.jpg" />
+    <None Include="Images\Color\31.jpg" />
+    <None Include="Images\Color\32.jpg" />
+    <None Include="Images\Color\33.jpg" />
+    <None Include="Images\Color\34.jpg" />
+    <None Include="Images\Color\35.jpg" />
+    <None Include="Images\Color\36.jpg" />
+    <None Include="Images\Color\37.jpg" />
+    <None Include="Images\Color\38.jpg" />
+    <None Include="Images\Color\39.jpg" />
+    <None Include="Images\Color\40.jpg" />
+    <None Include="Images\Color\41.jpg" />
+    <None Include="Images\Color\42.jpg" />
+    <None Include="Images\Color\43.jpg" />
+    <None Include="Images\Color\44.jpg" />
+    <None Include="Images\Color\45.jpg" />
+    <None Include="Images\Color\46.jpg" />
+    <None Include="Images\Color\47.jpg" />
+    <None Include="Images\Color\48.jpg" />
+    <None Include="Images\Color\49.jpg" />
+    <None Include="Images\Color\50.jpg" />
+    <None Include="Images\Color\51.jpg" />
+    <None Include="Images\Color\52.jpg" />
+    <None Include="Images\Color\53.jpg" />
+    <None Include="Images\Color\54.jpg" />
+    <None Include="Images\Color\55.jpg" />
+    <None Include="Images\Color\56.jpg" />
+    <None Include="Images\Color\57.jpg" />
+    <None Include="Images\Color\58.jpg" />
+    <None Include="Images\Color\59.jpg" />
+    <None Include="Images\Color\60.jpg" />
+    <None Include="Images\Color\61.jpg" />
+    <None Include="Images\Color\62.jpg" />
+    <None Include="Images\Color\63.jpg" />
+    <None Include="Images\Color\64.jpg" />
+    <None Include="Images\Color\65.jpg" />
+    <None Include="Images\Color\66.jpg" />
+    <None Include="Images\Color\67.jpg" />
+    <None Include="Images\Color\68.jpg" />
+    <None Include="Images\Color\69.jpg" />
+    <None Include="Images\Color\70.jpg" />
+    <None Include="Images\Black\0.jpg" />
+    <None Include="Images\Black\13.jpg" />
+    <None Include="Images\Black\1.jpg" />
+    <None Include="Images\Black\2.jpg" />
+    <None Include="Images\Black\3.jpg" />
+    <None Include="Images\Black\4.jpg" />
+    <None Include="Images\Black\5.jpg" />
+    <None Include="Images\Black\6.jpg" />
+    <None Include="Images\Black\7.jpg" />
+    <None Include="Images\Black\8.jpg" />
+    <None Include="Images\Black\9.jpg" />
+    <None Include="Images\Black\10.jpg" />
+    <None Include="Images\Black\11.jpg" />
+    <None Include="Images\Black\12.jpg" />
+    <None Include="Images\Black\14.jpg" />
+    <None Include="Images\Black\15.jpg" />
+    <None Include="Images\Black\16.jpg" />
+    <None Include="Images\Black\17.jpg" />
+    <None Include="Images\Black\18.jpg" />
+    <None Include="Images\Black\19.jpg" />
+    <None Include="Images\Black\20.jpg" />
+    <None Include="Images\Black\21.jpg" />
+    <None Include="Images\Black\22.jpg" />
+    <None Include="Images\Black\23.jpg" />
+    <None Include="Images\Black\24.jpg" />
+    <None Include="Images\Black\25.jpg" />
+    <None Include="Images\Black\26.jpg" />
+    <None Include="Images\Black\27.jpg" />
+    <None Include="Images\Black\28.jpg" />
+    <None Include="Images\Black\29.jpg" />
+    <None Include="Images\Black\30.jpg" />
+    <None Include="Images\Black\31.jpg" />
+    <None Include="Images\Black\32.jpg" />
+    <None Include="Images\Black\33.jpg" />
+    <None Include="Images\Black\34.jpg" />
+    <None Include="Images\Black\35.jpg" />
+    <None Include="Images\Black\36.jpg" />
+    <None Include="Images\Black\37.jpg" />
+    <None Include="Images\Black\38.jpg" />
+    <None Include="Images\Black\39.jpg" />
+    <None Include="Images\Black\40.jpg" />
+    <None Include="Images\Black\41.jpg" />
+    <None Include="Images\Black\42.jpg" />
+    <None Include="Images\Black\43.jpg" />
+    <None Include="Images\Black\44.jpg" />
+    <None Include="Images\Black\45.jpg" />
+    <None Include="Images\Black\46.jpg" />
+    <None Include="Images\Black\47.jpg" />
+    <None Include="Images\Black\48.jpg" />
+    <None Include="Images\Black\49.jpg" />
+    <None Include="Images\Black\50.jpg" />
+    <None Include="Images\Black\51.jpg" />
+    <None Include="Images\Black\52.jpg" />
+    <None Include="Images\Black\53.jpg" />
+    <None Include="Images\Black\54.jpg" />
+    <None Include="Images\Black\55.jpg" />
+    <None Include="Images\Black\56.jpg" />
+    <None Include="Images\Black\57.jpg" />
+    <None Include="Images\Black\58.jpg" />
+    <None Include="Images\Black\59.jpg" />
+    <None Include="Images\Black\60.jpg" />
+    <None Include="Images\Black\61.jpg" />
+    <None Include="Images\Black\62.jpg" />
+    <None Include="Images\Black\63.jpg" />
+    <None Include="Images\Black\64.jpg" />
+    <None Include="Images\Black\65.jpg" />
+    <None Include="Images\Black\66.jpg" />
+    <None Include="Images\Black\67.jpg" />
+    <None Include="Images\Black\68.jpg" />
+    <None Include="Images\Black\69.jpg" />
+    <None Include="Images\Black\70.jpg" />
+    <Content Include="alien.ico" />
+    <None Include="Resources\refuse.png" />
+    <Content Include="Sound\Audio.wav" />
+    <None Include="Sound\Finish.wav" />
+    <Content Include="Sound\Global.wav" />
+    <Content Include="Sound\msg.wav" />
+    <Content Include="Sound\shake.wav" />
+    <None Include="Sound\Start.wav" />
+    <Content Include="Sound\system.wav" />
+    <Content Include="Sound\tweet.wav" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

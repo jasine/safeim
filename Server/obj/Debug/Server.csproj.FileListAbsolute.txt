@@ -1,0 +1,39 @@
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\Server.exe.config
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\DB_SafeIM.mdf
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\DB_SafeIM_log.ldf
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\Server.exe
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\Server.pdb
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\Base.dll
+E:\桌面\新建文件夹 (2)\Server\bin\Debug\Base.pdb
+E:\桌面\新建文件夹 (2)\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\桌面\新建文件夹 (2)\Server\obj\Debug\Server.Properties.Resources.resources
+E:\桌面\新建文件夹 (2)\Server\obj\Debug\Server.SMainForm.resources
+E:\桌面\新建文件夹 (2)\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+E:\桌面\新建文件夹 (2)\Server\obj\Debug\Server.exe
+E:\桌面\新建文件夹 (2)\Server\obj\Debug\Server.pdb
+E:\桌面\SafeIM\Server\bin\Debug\Server.exe.config
+E:\桌面\SafeIM\Server\obj\Debug\Server.exe
+E:\桌面\SafeIM\Server\obj\Debug\Server.pdb
+E:\桌面\SafeIM\Server\bin\Debug\DB_SafeIM.mdf
+E:\桌面\SafeIM\Server\bin\Debug\DB_SafeIM_log.ldf
+E:\桌面\SafeIM\Server\bin\Debug\Server.exe
+E:\桌面\SafeIM\Server\bin\Debug\Server.pdb
+E:\桌面\SafeIM\Server\bin\Debug\Base.dll
+E:\桌面\SafeIM\Server\bin\Debug\Base.pdb
+E:\桌面\SafeIM\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\桌面\SafeIM\Server\obj\Debug\Server.Properties.Resources.resources
+E:\桌面\SafeIM\Server\obj\Debug\Server.SMainForm.resources
+E:\桌面\SafeIM\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\DB_SafeIM.mdf
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\DB_SafeIM_log.ldf
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\Server.exe.config
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\Server.exe
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\Server.pdb
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\Base.dll
+C:\Users\新宇\Desktop\SafeIM\Server\bin\Debug\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\新宇\Desktop\SafeIM\Server\obj\Debug\Server.Properties.Resources.resources
+C:\Users\新宇\Desktop\SafeIM\Server\obj\Debug\Server.SMainForm.resources
+C:\Users\新宇\Desktop\SafeIM\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+C:\Users\新宇\Desktop\SafeIM\Server\obj\Debug\Server.exe
+C:\Users\新宇\Desktop\SafeIM\Server\obj\Debug\Server.pdb

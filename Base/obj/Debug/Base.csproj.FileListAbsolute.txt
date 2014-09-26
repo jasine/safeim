@@ -1,0 +1,13 @@
+E:\桌面\新建文件夹 (2)\Base\bin\Debug\Base.dll
+E:\桌面\新建文件夹 (2)\Base\bin\Debug\Base.pdb
+E:\桌面\新建文件夹 (2)\Base\obj\Debug\Base.dll
+E:\桌面\新建文件夹 (2)\Base\obj\Debug\Base.pdb
+E:\桌面\SafeIM\Base\bin\Debug\Base.dll
+E:\桌面\SafeIM\Base\bin\Debug\Base.pdb
+E:\桌面\SafeIM\Base\obj\Debug\Base.dll
+E:\桌面\SafeIM\Base\obj\Debug\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Base\bin\Debug\Base.dll
+C:\Users\新宇\Desktop\SafeIM\Base\bin\Debug\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Base\obj\Debug\Base.dll
+C:\Users\新宇\Desktop\SafeIM\Base\obj\Debug\Base.pdb
+C:\Users\新宇\Desktop\SafeIM\Base\obj\Debug\Base.csprojResolveAssemblyReference.cache

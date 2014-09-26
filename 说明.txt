@@ -1,0 +1,3 @@
+使用了http://www.8timer.com/Software-Source-Code/2011/03/13/QQListBox.html
+//作者：阿龙(Along)        
+//QQ号：646494711    的QQ列表控件源码
