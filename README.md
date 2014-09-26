@@ -1,4 +1,4 @@
-safeim
+SafeIm
 ======
 
 A safe IM software developed by C#
